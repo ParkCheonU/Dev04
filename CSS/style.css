@@ -24,7 +24,7 @@ html, body{
   .list_menu{
     display: inline-block;
     height: 100%;
-    width: 110pxS;
+    width: 380px;
     background-color: aliceblue;
     font-size: xx-large;
     text-align: center;
@@ -32,6 +32,9 @@ html, body{
   }
   .list_menu:hover{
     background-color: #68cdbb;
+  }
+  #list_menu{
+    width: 390px;
   }
   .section {
     width: 90%;
@@ -47,9 +50,17 @@ html, body{
     height: 20%;
     border: 1px solid black;
   }
+  .section_div p{
+    padding: 20px;
+  }
+  .section_div h1{
+    padding: 20px;
+  }
+  /*
   #section_div1{
     height: 500px;
   }
+  */
   .nav{
     width: 10%;
     height: 80%;
